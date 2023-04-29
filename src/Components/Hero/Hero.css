@@ -1,0 +1,344 @@
+
+.heroContain{
+    background-color: var(--bg-color);
+    height: 30px;
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.card-contain {
+    position: absolute;
+}
+  .card-contain img {
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+  }
+  .card-text{
+    position: absolute;
+    margin-top: -65px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: left;
+    text-align: left;
+    padding: 4px 10px;
+    gap: 1rem;
+    width: 100%;
+    height: 4rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 0px 0px 20px 20px;
+    -webkit-border-radius: 0px 0px 20px 20px;
+    -moz-border-radius: 0px 0px 20px 20px;
+    -ms-border-radius: 0px 0px 20px 20px;
+    -o-border-radius: 0px 0px 20px 20px;
+}
+
+  .card-contain button {
+    background-color: var(--verde);
+    color: var(--blanco);
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.play-icon{
+    font-size: 14px;
+}
+  
+  .card-contain  p {
+    font-size: 14px;
+    color: var(--blanco);
+  }
+  
+  
+  
+
+
+
+
+
+  .footerContain{
+   z-index: 10;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    bottom: 0px; 
+    padding: 0px 6%;
+    background-color:rgba(30, 255, 0, 0.982);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.footerContain img{
+    width: 50px;
+    border-radius: 10px;
+    height: 55px;
+    object-fit: cover;
+}
+.footerContain p{
+    font-size: 12px;
+    color: var(--bg-color);
+}
+.img-p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 15rem;
+}
+
+.audio-player {
+    width: 100%;
+    padding: 0px 6%;
+  }
+
+#audio-player::-webkit-media-controls-panel {
+  background-color:rgba(30, 255, 0, 0.982);
+  }
+
+
+  
+  @media (max-width: 800px) {
+    .footerContain p{
+        display: none;
+    }
+    .img-p{
+        width: auto;
+    }
+    .footerContain{
+        padding: 0px 2%;
+    }
+    .audio-player {
+        padding: 0px 0%;
+      }
+    
+    .card-contain button {
+        padding: 7px;
+    }   
+      .play-icon{
+       font-size: 12px;
+    }  
+      .card-contain  p {
+       font-size: 12px;
+      color: var(--blanco);
+    }
+    .card-text{ 
+      margin-top: -55px;
+      height: 3.2rem;
+    }
+  }
+
+  .swiper_container {
+
+    height: 50vh;
+    width: 80%;
+  }
+  .swiper_container img{
+     width: 14rem;
+     height: 18rem;
+     object-fit: cover;
+     border-radius: 20px;
+}
+  .swiper-slide {
+    width: 17rem !important;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    align-content: center!important;
+  }
+
+
+
+  @media (max-width: 900px) {
+  
+
+    .container {
+      max-width: 100%;
+      padding: 4rem 1rem;
+      margin: 0 auto;
+    }
+    
+      .swiper_container {
+        height: 40vh;
+        width: 100%;
+      }
+      .swiper-slide {
+        width: 12rem !important;
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        align-content: center!important;
+      }
+      .swiper_container img{
+        width: 10rem;
+        height: 16rem;
+        object-fit: cover;
+        border-radius: 20px;
+   }
+
+    
+  }
+ 
+
+
+
+
+  .footerContain {
+    opacity: 0;
+    animation: slideFromRight 1s ease-in-out forwards;
+    -webkit-animation: slideFromRight 1s ease-in-out forwards;
+}
+.contain {
+    opacity: 0;
+    animation: slideFromLeft 1s ease-in-out forwards;
+    -webkit-animation: slideFromLeft 1s ease-in-out forwards;
+}
+
+@keyframes slideFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20%);
+
+}
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideFromRight {
+    from {
+        opacity: 0;
+       
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/*music-list-contain--------------------------*/
+
+.music-list-contain{
+    width: 100%;
+    background-color: var(--bgv-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    max-height: 65vh;
+    overflow-y:scroll;
+    padding: 0px 10px;
+}
+.music-list-contain::-webkit-scrollbar{
+  width: 7px;
+  height: 7px;
+  cursor: pointer;
+}
+
+.music-list-contain::-webkit-scrollbar-thumb{
+   background-color: var(--verde);
+   width: 10px;
+   border-radius:20px ;
+   cursor: pointer;
+}
+.fondo-list{
+  background-color: var(--bgv-color);
+  width: 100%;
+}
+
+.music-list{
+  background-color: var(--bgv-color);
+  display: flex;
+  align-items: center;
+  gap: 30%;
+  margin-top: 20px;
+  padding: 0px 10px;
+}
+.music-list img{
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.music-list p{
+color: var(--blanco);
+}
+.music-list-img{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.music-list button{
+  background-color: var(--verde);
+  color: var(--blanco);
+  border: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.music-list{
+  font-size: 14px;
+}
+
+.music-img-fondo-image img{
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: all .40s ease;
+}
+.music-img-fondo-image img:hover{
+  transform: translateY(-10px);
+  transition: all .40s ease;
+}
+
+.music-img-fondo-contain{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  place-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 3rem;
+}
+.music-img-fondo-contain button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.contain-list-img{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+  padding: 100px 9%;
+  gap: 2rem;
+}
+
+@media (max-width: 400px){
+  .music-list-contain p{
+    font-size: 10px;
+
+  }
+  .music-list{
+    padding: 5px 10px;
+  }
+}
