@@ -87,7 +87,11 @@ nav{
 .enlaces{
     display: flex;
     flex-direction: column;
+    text-align: center;
 
+}
+.enlaces a:hover{
+    background-color: var(--verde);
 }
 
 .nav_toggle span{
@@ -134,9 +138,12 @@ nav{
 
 
 .cerrar-nav{
-    display: none;
     color: var(--verde);
     margin-left: 70%;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: -30%;
 }
 
 
@@ -243,7 +250,7 @@ nav{
         font-size: 30px;
         font-weight: bold;
         display: flex;
-        margin-top: -100%;
+        margin-top: -30%;
     }
     .modal-nav{
         left: 100%;
@@ -352,4 +359,29 @@ nav{
 }
 .logo-icon> span:nth-child(4){
     width: 10px;
+}
+
+.enlaces a:hover{
+    background-color: var(--verde);
+    color: var(--bg-color)!important;
+  
+}
+.enlaces a{
+   margin: 10px;
+   width: 8rem;
+}
+
+.dev{
+  
+    display: flex;
+   align-items: center;
+   gap: 1rem;
+   justify-content: center;
+   padding: 20px 0px;
+}
+.dev p{
+    color: var(--blanco);
+}
+.dev img {
+    width: 60px;
 }

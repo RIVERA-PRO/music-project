@@ -53,6 +53,10 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    cursor: pointer;
+  }
+  .btn-music p:hover{
+    color: var(--verde)!important;
   }
   .play-icon-search{
     border-radius: 100%;

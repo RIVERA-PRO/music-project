@@ -59,6 +59,10 @@ export default function Navbar() {
                         <Anchor to={`/`} >Setings</Anchor>
                         <Anchor to={`/`} >Admin</Anchor>
                     </div>
+                    <div className='dev'>
+                        <p>Desarrollado por</p>
+                        <img src="../../../img/logor.png" alt="Juan Rivera Developer" />
+                    </div>
 
                 </div>
                 <div>

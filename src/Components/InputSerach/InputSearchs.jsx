@@ -13,6 +13,25 @@ import mus10 from '../music/Rei, Callejero Fino - Tu Turrito.mp3'
 import mus11 from '../music/Rodrigo Bueno - Amor clasificado.mp3'
 import mus12 from '../music/Soy Cordobes.mp3'
 import mus13 from '../music/TINI L-Gante - Bar.mp3'
+import mus14 from '../music/Agrupacion Marilyn - Los Recuerdos.mp3'
+import mus15 from '../music/BM - Ven Mami .mp3'
+import mus16 from '../music/CALLEJERO FINO - DJ TAO Turreo.mp3'
+import mus17 from '../music/CALLEJERO FINO - LE DOY PERREO.mp3'
+import mus18 from '../music/CALLEJERO FINO, STANDLY -  CUANDO SE APAGA LA LUZ.mp3'
+import mus19 from '../music/Frontea - Tirri La Roca, Brisa La Roca.mp3'
+import mus20 from '../music/M.A (Mejores Amigos) - BM.mp3'
+import mus21 from '../music/Madonna - Sorry.mp3'
+import mus22 from '../music/MARAMA -  Todo Comenzo Bailando.mp3'
+import mus23 from '../music/MARAMA - Bronceado (Video Oficial).mp3'
+import mus24 from '../music/NAM DANG NAM SOM.mp3'
+import mus25 from '../music/Nestor en bloque - Dejenla que llore sola │ Letra.mp3'
+import mus26 from '../music/Paloma Faith - Only Love Can Hurt Like This.mp3'
+import mus27 from '../music/Que locura fue enamorarme de ti.mp3'
+import mus28 from '../music/Rombai Ft Marama - Noche Loca.mp3'
+import mus29 from '../music/TIRRI LA ROCA - Session 1.mp3'
+import mus30 from '../music/Una Calle Nos Separa.mp3'
+import mus31 from '../music/Until I Found You.mp3'
+export { Footer };
 
 function Footer({ selectedMusic }) {
     return selectedMusic ? (
@@ -133,6 +152,152 @@ export default function InputSearchs() {
             img: "https://i.scdn.co/image/ab67616d0000b2737b1a8b1a92561bb5d16d6b4c",
             descripcion: "",
         },
+        {
+            id: 13,
+            title: "Agrupacion Marilyn - Los Recuerdos",
+            categoria: "Cumbia",
+            music: mus14,
+            img: "https://i.ytimg.com/vi/qwGEzue4yj4/maxresdefault.jpg",
+            descripcion: "",
+        },
+        {
+            id: 14,
+            title: "BM - Ven Mami",
+            categoria: "Trap",
+            music: mus15,
+            img: "https://source.boomplaymusic.com/group10/M00/03/02/d85b6edd1b7d47ac9dab797818d52d9e_464_464.jpg",
+            descripcion: "",
+        },
+        {
+            id: 15,
+            title: "CALLEJERO FINO - DJ TAO Turreo",
+            categoria: "Trap",
+            music: mus16,
+            img: "https://geo-media.beatsource.com/image_size/500x500/3/b/0/3b0dbd50-ace2-449c-9612-51d52aaf7346.jpg",
+            descripcion: "",
+        },
+        {
+            id: 16,
+            title: "CALLEJERO FINO - LE DOY PERREO",
+            categoria: "Trap",
+            music: mus17,
+            img: "https://i.ytimg.com/vi/Zk2qrW-GrTw/maxresdefault.jpg",
+            descripcion: "",
+        },
+        {
+            id: 17,
+            title: "CALLEJERO FINO, STANDLY -  CUANDO SE APAGA LA LUZ",
+            categoria: "Trap",
+            music: mus18,
+            img: "https://images.genius.com/c39ef058c438a06411a971efe16c3305.1000x1000x1.jpg",
+            descripcion: "",
+        },
+        {
+            id: 18,
+            title: "mus19",
+            categoria: "Trap",
+            music: mus19,
+            img: "https://i.ytimg.com/vi/mm37ttctQFU/maxresdefault.jpg",
+            descripcion: "",
+        },
+        {
+            id: 19,
+            title: "M.A (Mejores Amigos) - BM",
+            categoria: "Trap",
+            music: mus20,
+            img: "https://i.ytimg.com/vi/pOZvokjWbXM/maxresdefault.jpg",
+            descripcion: "",
+        },
+        {
+            id: 20,
+            title: "Madonna - Sorry",
+            categoria: "Pop",
+            music: mus21,
+            img: "https://i.ytimg.com/vi/pUCXfEPVoPk/hqdefault.jpg",
+            descripcion: "",
+        },
+        {
+            id: 21,
+            title: "MARAMA -  Todo Comenzo Bailando",
+            categoria: "Pop",
+            music: mus22,
+            img: "https://i1.sndcdn.com/artworks-000125278112-4e9wb7-t500x500.jpg",
+            descripcion: "",
+        },
+        {
+            id: 22,
+            title: "MARAMA - Bronceado",
+            categoria: "Pop",
+            music: mus23,
+            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB6r0e0JIffoiOna5ENs_OvIOmipBAUfApwj0vMvkooo8tBKvwcDD41R7uzR0GYZDWwAo&usqp=CAU",
+            descripcion: "",
+        }, {
+            id: 23,
+            title: "NAM DANG NAM SOM",
+            categoria: "Hip Hop",
+            music: mus24,
+            img: "https://routenote-push.s3.eu-west-2.amazonaws.com/19428/68223b07-8f76-4aa7-985b-213341425342",
+            descripcion: "",
+        },
+
+        {
+            id: 24,
+            title: "Nestor en bloque - Dejenla que llore sola",
+            categoria: "Cumbia",
+            music: mus25,
+            img: "https://i.ytimg.com/vi/R_kQGxS1P8U/hqdefault.jpg",
+            descripcion: "",
+        },
+        {
+            id: 25,
+            title: "Paloma Faith - Only Love Can Hurt Like This",
+            categoria: "Pop",
+            music: mus26,
+            img: "https://i.ytimg.com/vi/PaKr9gWqwl4/maxresdefault.jpg",
+            descripcion: "",
+        },
+        {
+            id: 26,
+            title: "Que locura fue enamorarme de ti",
+            categoria: "Cumbia",
+            music: mus27,
+            img: "https://akamai.sscdn.co/uploadfile/letras/albuns/9/a/7/9/639321529589588.jpg",
+            descripcion: "",
+        },
+        {
+            id: 27,
+            title: "Rombai Ft Marama - Noche Loca",
+            categoria: "Pop",
+            music: mus28,
+            img: "https://www.cmtv.com.ar/tapas-cd/rombainochelocasingle.webp",
+            descripcion: "",
+        },
+        {
+            id: 28,
+            title: "TIRRI LA ROCA - Session 1",
+            categoria: "Trap",
+            music: mus29,
+            img: "https://m.media-amazon.com/images/I/51n2DyjOM3L._UXNaN_FMjpg_QL85_.jpg",
+            descripcion: "",
+        },
+        {
+            id: 29,
+            title: "Una Calle Nos Separa",
+            categoria: "Cumbia",
+            music: mus30,
+            img: "https://i.ytimg.com/vi/R_kQGxS1P8U/hqdefault.jpg",
+            descripcion: "",
+        },
+        {
+            id: 30,
+            title: "Until I Found You",
+            categoria: "Pop",
+            music: mus31,
+            img: "https://i.ytimg.com/vi/i4ZcO1EorLE/maxresdefault.jpg",
+            descripcion: "",
+        },
+
+
 
 
     ];
@@ -180,3 +345,4 @@ export default function InputSearchs() {
 
     );
 }
+
